@@ -35,7 +35,7 @@ class Student {
 
     dbData() {
         return new Promise((resolve, reject) => {
-            setTimeout(() => resolve(10), 1900)
+            setTimeout(() => resolve(10), 12)
         })
     }
 

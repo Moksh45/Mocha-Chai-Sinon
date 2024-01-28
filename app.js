@@ -4,6 +4,7 @@ const app = express()
 
 app.use('/user', require('./routes/user'))
 
-app.listen(port, ()=>{
+
+module.exports = app.listen(port, ()=>{
     console.log(`App is listening at http://localhost:${port}`)
 })

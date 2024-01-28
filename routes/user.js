@@ -4,4 +4,6 @@ const userCtrl = require('../controller/userCtrl')
 
 router.get('/',userCtrl.userList)
 
+router.get('/data',userCtrl.data)
+
 module.exports = router
