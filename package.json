@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon app.js",
     "test": "mocha",
-    "test-report": "mocha test --reporter mochawesome --require mochawesome/register"
+    "test-report": "mocha test --reporter mochawesome --require mochawesome/register",
+    "coverage":"nyc --reporter=lcov --reporter=text npm run test",
+    "unit:test": "MOCHA_FILE=./reports/test-results.xml mocha --reporter mocha-junit-reporter"
   },
   "repository": {
     "type": "git",

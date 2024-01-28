@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.082" tests="26" failures="0" skipped="2">
+  <testsuite name="Root Suite" timestamp="2024-01-28T11:21:02" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Task api" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/api.js" time="0.023" failures="0">
+    <testcase name="Task api get user" time="0.020" classname="get user">
+    </testcase>
+  </testsuite>
+  <testsuite name="Assert check" timestamp="2024-01-28T11:21:02" tests="3" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/chaiTest.js" time="0.003" failures="0">
+    <testcase name="Assert check check string" time="0.001" classname="check string">
+    </testcase>
+    <testcase name="Assert check Equal match" time="0.000" classname="Equal match">
+    </testcase>
+    <testcase name="Assert check lenght match" time="0.002" classname="lenght match">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should check" timestamp="2024-01-28T11:21:02" tests="3" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/chaiTest.js" time="0.002" failures="0">
+    <testcase name="Should check check string" time="0.000" classname="check string">
+    </testcase>
+    <testcase name="Should check equal check " time="0.000" classname="equal check ">
+    </testcase>
+    <testcase name="Should check lenght check" time="0.001" classname="lenght check">
+    </testcase>
+  </testsuite>
+  <testsuite name="check expect" timestamp="2024-01-28T11:21:02" tests="6" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/chaiTest.js" time="0.003" failures="0">
+    <testcase name="check expect string match" time="0.000" classname="string match">
+    </testcase>
+    <testcase name="check expect lenght match" time="0.001" classname="lenght match">
+    </testcase>
+    <testcase name="check expect object lenght" time="0.000" classname="object lenght">
+    </testcase>
+    <testcase name="check expect api object match" time="0.001" classname="api object match">
+    </testcase>
+    <testcase name="check expect phone no" time="0.000" classname="phone no">
+    </testcase>
+    <testcase name="check expect check country name" time="0.000" classname="check country name">
+    </testcase>
+  </testsuite>
+  <testsuite name="Heading 1" timestamp="2024-01-28T11:21:02" tests="2" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/hook.js" time="0.001" failures="0">
+    <testcase name="Heading 1 value2" time="0.000" classname="value2">
+    </testcase>
+  </testsuite>
+  <testsuite name="---------Heading 2-----" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/hook.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="----------Mock-----------" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/mock.js" time="0.003" failures="0">
+    <testcase name="----------Mock----------- count function" time="0.003" classname="count function">
+    </testcase>
+  </testsuite>
+  <testsuite name="Nock test suit" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/nock.js" time="0.015" failures="0">
+    <testcase name="Nock test suit api test" time="0.015" classname="api test">
+    </testcase>
+  </testsuite>
+  <testsuite name="----------Promise-----------" timestamp="2024-01-28T11:21:02" tests="3" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/promise.js" time="0.027" failures="0">
+    <testcase name="----------Promise----------- Normal value function" time="0.013" classname="Normal value function">
+    </testcase>
+    <testcase name="----------Promise----------- chai promised value function" time="0.013" classname="chai promised value function">
+    </testcase>
+    <testcase name="----------Promise----------- opt" time="0.001" classname="opt">
+    </testcase>
+  </testsuite>
+  <testsuite name="Spay " timestamp="2024-01-28T11:21:02" tests="2" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/spay.js" time="0.001" failures="0">
+    <testcase name="Spay  test user function" time="0.001" classname="test user function">
+    </testcase>
+    <testcase name="Spay  function count" time="0.000" classname="function count">
+    </testcase>
+  </testsuite>
+  <testsuite name="----------stub-----------" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/stub.js" time="0.002" failures="0">
+    <testcase name="----------stub----------- test user function" time="0.001" classname="test user function">
+    </testcase>
+  </testsuite>
+  <testsuite name="Array" timestamp="2024-01-28T11:21:02" tests="0" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="#indexOf()" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/test.js" time="0.000" failures="0">
+    <testcase name="Array #indexOf() should return -1 when the value is not present" time="0.000" classname="should return -1 when the value is not present">
+    </testcase>
+  </testsuite>
+  <testsuite name="my first test case" timestamp="2024-01-28T11:21:02" tests="1" file="/home/moksh/Desktop/Mocha-Chai-Sinon/test/test.js" time="0.001" failures="0">
+    <testcase name="Array my first test case value check" time="0.000" classname="value check">
+    </testcase>
+  </testsuite>
+</testsuites>
