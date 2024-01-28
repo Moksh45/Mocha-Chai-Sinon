@@ -1,3 +1,6 @@
+const { default: axios } = require("axios");
+const { response } = require("express");
+
 class Student {
     constructor() {
 
@@ -30,11 +33,25 @@ class Student {
         return total - 1
     }
 
-    dbData(){
-        return new Promise((resolve, reject)=>{
-            setTimeout(()=> resolve(10),1900)
+    dbData() {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => resolve(10), 1900)
         })
     }
+
+    thirdPartyAPI() {
+        return new Promise((resolve, reject) => {
+            axios.get('https://api.publicapis.org/entries')
+                .then(response => {
+                    resolve(response.data)
+                })
+                .catch(error => {
+                    console.log(error)
+                    reject(error)
+                })
+        })
+    }
+
 }
 
 module.exports = Student
